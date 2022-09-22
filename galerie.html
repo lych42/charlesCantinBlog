@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Cantin - Photographe</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style-galerie.css">
+</head>
+
+<body>
+  
+  <nav>
+    <h2>
+      <span class="material-symbols-outlined">
+        photo_camera
+      </span>
+      Charles Cantin
+    </h2>
+    <ul>
+      <li><a href="index.html">Accueil</li>
+      <li><a href="galerie.html">Galerie</a></li>
+      <li><a href="prestations.html">Prestations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+<!-- Portfolio avec option pour filtrer par catégorie -->
+<section id="portfolio">
+  <main>
+  <h2 style="text-align: center;">Ici vous trouverez l'ensemble de mes réalisations pour vous donner une idée de mon travail</h2>
+
+      <div id="btnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Voir tout</button>
+        <button class="btn" onclick="filterSelection('mariage')"> Mariage</button>
+        <button class="btn" onclick="filterSelection('grossesse')"> Grossesse</button>
+        <button class="btn" onclick="filterSelection('bébé')"> Bébé</button>
+        <button class="btn" onclick="filterSelection('famille')"> Famille</button>
+        <button class="btn" onclick="filterSelection('bapteme')"> Baptême</button>
+        <button class="btn" onclick="filterSelection('couple')"> Couple</button>
+        <button class="btn" onclick="filterSelection('portrait')"> Portrait</button>
+      </div>
+
+<div class="row">
+  <div class="column mariage">
+    <div class="content">
+      <img src="/images/mariage1.webp" alt="mariage1" style="width:100%">
+    </div>
+  </div>
+  <div class="column mariage">
+    <div class="content">
+    <img src="/images/mariage2.jpg" alt="mariage2" style="width:100%">
+    </div>
+  </div>
+  <div class="column mariage">
+    <div class="content">
+    <img src="/images/mariage3.jpg" alt="mariage3" style="width:100%">
+    </div>
+  </div>
+  
+  <div class="column grossesse">
+    <div class="content">
+      <img src="/images/grossesse1.jpg" alt="grossesse1" style="width:100%">
+    </div>
+  </div>
+  <div class="column grossesse">
+    <div class="content">
+    <img src="/images/grossesse2.jpg" alt="grossesse2" style="width:100%">
+    </div>
+  </div>
+  <div class="column grossesse">
+    <div class="content">
+    <img src="/images/grossesse3.jpg" alt="grossesse3" style="width:100%">
+      <h4></h4>
+    </div>
+  </div>
+
+  <div class="column bébé">
+    <div class="content">
+      <img src="/images/bébé1.jpg" alt="bébé1" style="width:100%">
+    </div>
+  </div>
+  <div class="column bébé">
+    <div class="content">
+    <img src="/images/bébé2.jpg" alt="bébé2" style="width:100%">
+    </div>
+  </div>
+  <div class="column bébé">
+    <div class="content">
+    <img src="/images/bébé3.jpg" alt="bébé3" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column famille">
+    <div class="content">
+      <img src="/images/famille1.jpg" alt="famille1" style="width:100%">
+    </div>
+  </div>
+  <div class="column famille">
+    <div class="content">
+    <img src="/images/famille2.jpg" alt="famille2" style="width:100%">
+    </div>
+  </div>
+  <div class="column famille">
+    <div class="content">
+    <img src="/images/famille3.jpg" alt="famille3" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column bapteme">
+    <div class="content">
+      <img src="/images/bapteme1.jpg" alt="bapteme1" style="width:100%">
+    </div>
+  </div>
+  <div class="column bapteme">
+    <div class="content">
+    <img src="/images/bapteme2.jpg" alt="bapteme2" style="width:100%">
+    </div>
+  </div>
+  <div class="column bapteme">
+    <div class="content">
+    <img src="/images/bapteme3.jpg" alt="bapteme3" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column couple">
+    <div class="content">
+      <img src="/images/couple1.jpg" alt="couple1" style="width:100%">
+    </div>
+  </div>
+  <div class="column couple">
+    <div class="content">
+    <img src="/images/couple2.jpg" alt="couple2" style="width:100%">
+    </div>
+  </div>
+  <div class="column couple">
+    <div class="content">
+    <img src="/images/couple3.jpg" alt="couple3" style="width:100%">
+    </div>
+  </div>
+
+  <div class="column portrait">
+    <div class="content">
+      <img src="/images/portrait1.jpg" alt="portrait1" style="width:100%">
+    </div>
+  </div>
+  <div class="column portrait">
+    <div class="content">
+    <img src="/images/portrait2.jpg" alt="portrait2" style="width:100%">
+    </div>
+  </div>
+</div>
+  </main>
+   </section>
+
+  <footer>
+    <p>&copy; Charles Cantin 2022</p>
+  </footer>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
